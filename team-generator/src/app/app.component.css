@@ -1,0 +1,76 @@
+.main{
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.team-list{
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin: 0px 0px 30px 0px;
+    height: 150px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+.team-list ul{
+    list-style: none;
+    padding: 10px;
+}
+.add-new {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-new button{
+    background-color: #1a2b63;
+    color: white;
+height: 35px;
+    border-radius: 10px;
+}
+.create-team{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+}
+.create-team button{
+    background-color: #1a631e;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+}
+.create-team input,
+.create-team button{
+    width: 50%;
+}
+input {
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 1px gray;
+}
+.error{
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.output{
+    width: 54%;
+    margin: auto;
+}
+.output-list{
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin: 0px 0px 30px 0px;
+    height: fit-content;
+    background-color: antiquewhite;
+}
+.output-list ul{
+    list-style: none;
+    padding: 5px;
+}
+
